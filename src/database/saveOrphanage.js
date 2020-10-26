@@ -5,7 +5,7 @@ function saveOrphanage(db, orphanage) {
     lng,
     name,
     about,     
-    whasapp,
+    whatsapp,
     images,
     instructions,
     opening_hours,
@@ -15,8 +15,8 @@ function saveOrphanage(db, orphanage) {
     "${orphanage.lng}",
     "${orphanage.name}",
     "${orphanage.about}",
+    "${orphanage.whatsapp}",
     "${orphanage.images}",
-    "${orphanage.whasapp}",
     "${orphanage.instructions}",
     "${orphanage.opening_hours}",
     "${orphanage.open_on_weekends}"
